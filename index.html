@@ -1,0 +1,154 @@
+<!doctype html> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]--> 
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]--> 
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]--> 
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--> 
+<html lang="en" class="no-js"> 
+<!--<![endif]--> 
+ 
+<head> 
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" /> 
+    <link rel="apple-touch-icon-precomposed" href="/assets/apple-touch-icon.png" />
+    <style type="text/css">
+        html,body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            height:100%;
+        }
+                
+        body {
+            background: white;
+            color: black;
+            font-size: 13px;
+            font-family: Helvetica Neue,Helvetica,sans-serif;
+            line-height: 1.231;
+            *font-size: small;
+            display: table;
+            width: 100%;
+        }
+
+        #errorcontainer {
+            display: table-cell; vertical-align: middle; width: 100%;
+        }
+
+        #errorinner {
+            width: 80%; min-width: 240px; margin: auto; text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            padding: 0;
+            border: 0;
+            font-size: 180%;
+            color: #333;
+            font-weight: normal;
+        }
+
+        h1 a {
+            text-decoration: none;
+        }
+        h2 {
+            color: #666;
+            font-weight: normal;
+            font-size: 110%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        a {
+            text-decoration: underline;
+            color: #999;
+        }
+        a:hover {
+            color: #000;
+        }
+        #errorinner img {
+            margin-top: 60px;
+            width: 100%;
+            max-width: 450px;
+        }
+
+        #top_header {
+            position: absolute;
+            z-index: 20;
+            width: 100%;
+            height: 96px;
+        }
+
+        header {
+            z-index:20;
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 60px;
+            color: #666666;
+            background: #262626 url(/assets/header_noise.png) repeat-x 0 -48px;
+        }
+        header h1 {
+            float: left;
+            width: 182px;
+            height: 60px;
+            margin: 0;
+            background: url(/assets/logo_lightboxV3.png?20120103) no-repeat;
+            background-position: 0 2px;
+            position: relative;
+            left: -4px;
+            margin-left: 18px;
+        }
+
+        header h1:hover {
+            background-position: 0 -58px;
+        }
+
+        html.no-touch header h1:active {
+            background-position: 0 -118px;
+        }
+
+        header h1 span {
+            display: none;
+        }
+
+
+        header h1 a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22783876-1']);
+        _gaq.push(['_setDomainName', '.lightbox.com']);
+        //_gaq.push(['_setSampleRate','100']); 
+        _gaq.push(['_setCustomVar', 1, 'User Type', 'Visitor', 2]);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script>
+    if(!window.Android) { var Android = {}; }
+    Android["pageLoaded"] = Android["pageLoaded"] || function() {if(window.console) {console.log('Page Loaded');}}
+    Android.pageLoaded();
+    </script>
+</head> 
+<body>
+    <div id="top_header">
+        <header id="header_primary">
+            <h1><a href="/" id="link_home" title="Lightbox - Home"><span>Lightbox</span></a></h1>
+        </header>
+    </div>
+    <div id="errorcontainer">
+    <div id="errorinner">
+        <a href="http://blog.lightbox.com/post/23107101360/lightbox-is-joining-facebook"><img src="/assets/sunset.png" alt="Lightbox" /></a>
+        <h1><a href="http://blog.lightbox.com/post/23107101360/lightbox-is-joining-facebook" style="color: #3B5998;">The Lightbox team has joined Facebook</a></h1>
+        <h2>Thank you for sharing your experiences with the Lightbox community.<br />Lightbox.com was discontinued on June 15, 2012. <a href="http://blog.lightbox.com/post/23107101360/lightbox-is-joining-facebook">Read more</a></h2>
+    </div>
+    </div>
+</body>
+</html>
